@@ -121,17 +121,55 @@ footer img{
 }
 .more{
     text-align: center;
+    padding-top: 120px;
+    position:relative;
 }
 .more p{
-    margin-top: 160px;
+    padding-top: 160px;
 }
-.more img{
+.more .amaz-img{
     margin-top: 25px;
     width: 100px;
+    margin-bottom: 30px;
 }
 .more .but a{
     color:#111;
     text-decoration: none;
     border-bottom:1px solid;
-    margin-top: 125px;
+
+}
+.more h1{
+    padding-top: 120px;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 60px;
+    font-size: 50px;
+}
+.more  p{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 40px;
+    line-height: 25px;
+}
+.more .find{
+    display: flex;
+    justify-content: center;
+   margin: 0 auto;
+    background-color: #2468FF;
+    padding: 22px 10px;
+    border:none;
+    width: 250px;
+    /* margin-left: 43%;  */
+    margin-top: 80px;
+
+}
+.more .find a{
+    display: block;
+    color:white;
+    text-decoration: none;
+}
+.more img{
+    margin-top: 60px;
+    width: 70%;
+    margin: 0 auto;
 }
