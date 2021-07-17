@@ -1,0 +1,214 @@
+@media (max-width: 1550px){
+    header .amazon{
+        padding-left: 50px;
+    }
+    header nav ul{
+        margin-left: -50px;
+    }
+    header nav ul li{
+        margin-left: 50px;
+    }
+    main img{
+        background-image:url(./image-style/home.png);
+        width: 100%;
+        margin: 0 auto;
+        height: 700px;
+    }
+    .wifi{
+        position: absolute;
+        top: 50px;
+        }
+        main h1{
+            text-align: center;
+            padding-top: 100px;
+            line-height: 150px;
+        }
+   
+}
+
+@media (max-width: 1100px){
+    header .amazon{
+        padding-left: 20px;
+    }
+    header nav ul{
+        margin-left: -20px;
+    }
+    header nav ul li{
+        margin-left: 20px;
+    }
+    main img{
+
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    main img{
+        background-image:url(./image-style/home.png);
+        width: 100%;
+        margin: 0 auto;
+        height: 500px;
+    }
+    .wifi{
+        position: absolute;
+        top: 50px;
+        }
+        main h1{
+            text-align: center;
+            padding-top: 50px;
+            line-height: 150px;
+        }
+        footer{
+            height: 70px;
+        }
+}
+
+@media (max-width: 910px){
+    header .amazon{
+        padding-left: 40px;
+    }
+    header nav ul{
+        display:none;
+        position: absolute;
+        top: 120px;
+        right: 0;
+        padding: 20px;
+        text-align: center;
+        background-color:darkcyan;
+        width: 50%;
+        flex-direction: column;
+    }
+    header nav ul li{
+        margin-left: 20px;
+        margin-top: 20px;
+        
+    }
+    header i{
+        display: block;
+        position: absolute;
+        right: 180px;
+    }
+    main img{
+        background-image:url(./image-style/home.png);
+        width: 100%;
+        margin: 0 auto;
+        height: 400px;
+    }
+    footer{
+        height: 70px;
+    }
+}
+
+@media (max-width: 780px){
+    header .amazon{
+        padding-left: 40px;
+    }
+    header nav ul{
+        display:none;
+        position: absolute;
+        top: 120px;
+        right: 0;
+        padding: 20px;
+        text-align: center;
+        background-color:darkcyan;
+        width: 50%;
+        flex-direction: column;
+    }
+    header nav ul li{
+        margin-left: 20px;
+        margin-top: 20px;
+        
+    }
+    header i{
+        display: block;
+        position: absolute;
+        right: 180px;
+    }
+    main img{
+        background-image:url(./image-style/home.png);
+        width: 100%;
+        margin: 0 auto;
+        height: 400px;
+    }
+    footer{
+        height: 60px;
+    }
+}
+
+@media (max-width: 610px){
+    main img{
+        background-image:url(./image-style/home.png);
+        width: 100%;
+        margin: 0 auto;
+        height: 250px;
+    }
+    main h1{
+        text-align: center;
+        padding-top: 50px;
+        font-size: 40px;
+        color: #fff;
+        line-height: 100px;
+    }
+    main a{
+        margin-left: 18%;
+        line-height: 80px;
+        padding: 15px 30px;
+    }
+    footer{
+        height: 40px;
+    }
+}
+
+@media (max-width: 400px){
+    header .amazon{
+        padding-left: 10px;
+    }
+    header nav ul li{
+        margin-left: 20px;
+        margin-top: 20px;
+        
+    }
+    header nav ul{
+        display:none;
+        position: absolute;
+        top: 125px;
+        right: 0;
+        padding: 20px;
+        text-align: center;
+        background-color:darkcyan;
+        width: 60%;
+        flex-direction: column;
+    }
+    header .but{
+        text-decoration: none;
+        background-color: #2468FF;
+        padding: 32px 30px;
+        border:none;
+        margin-top: -0px;
+    }
+    header i{
+        display: block;
+        position: absolute;
+        right: 120px;
+    }
+    main img{
+        background-image:url(./image-style/home.png);
+        width: 100%;
+        margin: 0 auto;
+        height: 150px;
+    }
+    main h1{
+        text-align: center;
+        padding-top: 100px;
+        font-size: 20px;
+        color: #fff;
+        line-height: 20px;
+    }
+    main a{
+        margin-left: 18%;
+        line-height: 40px;
+        padding: 8px 15px;
+    }
+    footer{
+        height: 30px;
+    }
+}

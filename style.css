@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.hed{
+    width: 100%;
+}
+.dey{
+    background: #161F49;
+    color:#fff;
+    text-align: center;
+    padding: 10px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header .amazon{
+    padding-left: 100px;
+}
+header .amazon h1{
+    letter-spacing: 3px;
+}
+header .amazon img{
+    width: 50px;
+    margin-bottom: -5px;
+    padding: 0 2px;
+    
+}
+header .amazon p{
+    font-size:12px;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -120px;
+    list-style:none;
+}
+header nav ul li{
+    margin-left: 120px;
+}
+header nav a{
+   color: #404040;
+   text-decoration: none;
+}
+header .but{
+    text-decoration: none;
+    background-color: #2468FF;
+    padding: 32px 60px;
+    border:none;
+    margin-top: -0px;
+}
+header .but a{
+    text-decoration: none;
+    color: #fff;
+}
+header i{
+    display: none;
+}
+main{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main img{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 800px;
+}
+.wifi{
+position: absolute;
+top: 150px;
+}
+main h1{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 80px;
+    color: #fff;
+    line-height: 150px;
+}
+main p{
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+}
+main a{
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid #fff;
+    margin-left: 27%;
+    line-height: 120px;
+    padding: 20px 60px;
+}
+
+
+footer{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 120px;
+}
+footer img{
+    width: 45%;
+    position: absolute;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-left: 28%;
+ margin-top: -15%;
+
+}
+/* section 2 */
+
+#container{
+    width: 100%;
+}
+.more{
+    text-align: center;
+}
+.more p{
+    margin-top: 160px;
+}
+.more img{
+    margin-top: 25px;
+    width: 100px;
+}
+.more .but a{
+    color:#111;
+    text-decoration: none;
+    border-bottom:1px solid;
+    margin-top: 125px;
+}
