@@ -23,6 +23,24 @@
             padding-top: 100px;
             line-height: 150px;
         }
+        .texnology{
+            min-height: 100vh;
+        }
+        .texno{
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 590px;
+        }
+        .btn{
+            width: 80%;
+            margin: 0 auto;
+        }
+   
+}
+
+
+@media (max-width: 1410px){
+ 
    
 }
 
@@ -73,6 +91,30 @@
         .more  p{
             width: 85%;
         }
+        .texnology{
+            min-height: 110vh;
+        }
+
+        .texno{
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 570px;
+        }
+        .btn{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .journal{
+            width: 100%;
+            height: 430px;
+        }
+        .journal h1{
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 100px;
+            font-size: 40px;
+        }
+ 
 }
 
 @media (max-width: 910px){ 
@@ -123,7 +165,24 @@
     .more{
         padding-top: 50px;
     }
-}
+    .texno{
+        width: 98%;
+        margin: 0 auto;
+        padding-top: 570px;
+    }
+    .btn{
+        width: 98%;
+        margin: 0 auto;
+    }
+    .bt2{
+        margin-left: 18%;
+    }
+
+
+    }
+
+
+
 
 @media (max-width: 780px){
 
@@ -176,6 +235,34 @@
     .more .find{
         margin-top: 50px;
     }
+    .texnology{
+        min-height: 125vh;
+        background-image: url(./image-style/Rectangle\ \(3\).png);
+        background-repeat: no-repeat;
+        background-position:left;
+        width:100%;
+        margin: 0 auto;
+    }
+    .texno{
+        width: 98%;
+        margin: 0 auto;
+        padding-top: 350px;
+        flex-direction: column;
+    }
+    .texno-item{
+        padding-left: 50px;
+    }
+    .tex-item{
+        padding-top: 30px;
+    }
+    .btn{
+        width: 98%;
+        margin: 0 auto;
+    
+    }
+    .bt2{
+        margin-left: 18%;
+    }
 }
 
 @media (max-width: 610px){
@@ -216,6 +303,32 @@
     .more .find{
         margin-top: 50px;
     }
+    .texno-item{
+        padding-left: 30px;
+    }
+    .btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+.bt{
+    padding: 15px 100px;
+    color:white;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.journal{
+    width: 100%;
+    height: 330px;
+}
+.journal h1{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 30px;
+}
 }
 
 @media (max-width: 400px){
@@ -290,4 +403,23 @@
     .more{
         padding-top: 30px;
     }
+    .texno-item{
+        padding-left: 15px;
+    }
+    .journal{
+        width: 100%;
+        height: 340px;
+    }
+    .journal h1{
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    .journal h2{
+        padding-top: 30px;
+        font-size:30px;
+        
+    }
+ 
 }

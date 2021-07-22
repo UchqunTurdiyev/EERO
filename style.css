@@ -173,3 +173,109 @@ footer img{
     width: 70%;
     margin: 0 auto;
 }
+
+/* section texnology */
+
+.texnology{
+    background-image: url(./image-style/Rectangle\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    min-height: 120vh;
+}
+.texno{
+    padding-top: 710px;
+    display:flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.texno-item{
+    padding-left: 100px;
+}
+.tex-item .texno-item button{
+  padding: 2px 12px;
+  border-radius:20px;
+  color:#000;
+  font-weight:600;
+}
+
+.tex-item .texno-item h2{
+    padding-top: 25px;
+    font-weight: 600;
+    color:white;
+    line-height:48px;
+    font-size: 42px;
+}
+.tex-item .texno-item h3{
+    width: 100%;
+    padding-top: 25px;
+    font-weight: 600;
+    color:white;
+    line-height:48px;
+    font-size: 42px;
+}
+
+.tex-item .texno-item p{
+    color:#fff;
+    font-size: 18px;
+    padding-top: 25px;
+    line-height: 25px;
+
+}
+.tex-item .texno-item h4{
+    color:white;
+    padding-top: 25px;
+    line-height: 25px;
+
+}
+.btn{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.bt{
+    background-color:#2468FF;
+    padding: 15px 40px;
+    color:white;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.bt2{
+    margin-left: 28%;
+}
+.comp{
+    color:white;
+    font-weight: 600;
+    text-align: center;
+    padding: 50px;
+}
+.comp button{
+    width:180px;
+    height:3px;
+    background-color:white;
+    border:none;
+}
+
+/*  JOURNAL */
+
+.journal{
+    width: 100%;
+    height: 530px;
+    background-color:#404040;
+    color:#fff;
+    text-align:center;
+}
+.journal h1{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 150px;
+    font-size: 40px;
+    line-height: 48px;
+}
+.journal h2{
+    padding-top: 50px;
+    font-size:40px;
+
+}
