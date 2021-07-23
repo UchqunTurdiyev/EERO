@@ -263,6 +263,41 @@
     .bt2{
         margin-left: 18%;
     }
+    .unlock-item{
+        padding-top: 100px;
+      }
+      .unlock-text button{
+       margin-top: 60px;
+    }
+    .carusel-kub{
+        padding: 60px 0 20px 0;
+    }
+    .unlock{
+        width: 100%;
+        min-height: 80vh;
+        background-image:url(./image-style/Rectangle@2x.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: bottom;
+    }
+    .give-home h1{
+        padding-top: 60px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .give-home p{
+        padding-top: 50px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .give-home img{
+       margin-top: 70px;
+       padding-bottom: 20px;
+       width: 70%;
+       margin-left: 15%;
+    }
 }
 
 @media (max-width: 610px){
@@ -321,7 +356,7 @@
 }
 .journal{
     width: 100%;
-    height: 330px;
+    height: 380px;
 }
 .journal h1{
     width: 90%;
@@ -329,7 +364,24 @@
     padding-top: 30px;
     font-size: 30px;
 }
+.unlock-text p{
+    width: 90%;
 }
+.unlock-item{
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  .unlock-item .un-item{
+   padding-top: 30px;
+}
+
+
+
+
+}
+
+
+
 
 @media (max-width: 400px){
     header .amazon{
@@ -408,7 +460,7 @@
     }
     .journal{
         width: 100%;
-        height: 340px;
+        height: 420px;
     }
     .journal h1{
         width: 90%;
@@ -421,5 +473,16 @@
         font-size:30px;
         
     }
+    .unlock-text p{
+        width: 97%;
+    }
+    .give-home h1{
+        padding-top: 30px;
+        width: 97%;
+        margin: 0 auto;
+        font-size: 30px;
+        line-height: 40px;
+    }
+  
  
 }
