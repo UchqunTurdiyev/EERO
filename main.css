@@ -50,6 +50,7 @@
     }
     header nav ul{
         margin-left: -20px;
+     
     }
     header nav ul li{
         margin-left: 20px;
@@ -124,25 +125,28 @@
     }
     header nav ul{
         display:none;
+        margin-top: -43px;
         position: absolute;
-        top: 120px;
+        top: 123px;
         right: 0;
         padding: 20px;
         text-align: center;
-        background-color:darkcyan;
+        background-color:rgba(0, 139, 139, 0.712);
         width: 50%;
         flex-direction: column;
+    }
+    header nav ul a{
+        color:white;
     }
     header nav ul li{
         margin-left: 20px;
         margin-top: 20px;
         
     }
-    header i{
-        display: block;
-        position: absolute;
-        right: 180px;
-    }
+        header .fa-bars{
+            display: block;
+            margin-right: -20%;
+        }
     main img{
         background-image:url(./image-style/home.png);
         width: 100%;
@@ -192,24 +196,23 @@
     header nav ul{
         display:none;
         position: absolute;
-        top: 120px;
         right: 0;
         padding: 20px;
         text-align: center;
-        background-color:darkcyan;
+        background-color:rgba(0, 139, 139, 0.781);
         width: 50%;
         flex-direction: column;
+        margin-top: -43px;
+    }
+    header nav ul a{
+        color:white;
     }
     header nav ul li{
         margin-left: 20px;
         margin-top: 20px;
         
     }
-    header i{
-        display: block;
-        position: absolute;
-        right: 180px;
-    }
+    
     main img{
         background-image:url(./image-style/home.png);
         width: 100%;
@@ -301,6 +304,12 @@
 }
 
 @media (max-width: 610px){
+
+    header .fa-bars{
+        display: block;
+        margin-right: 10px;
+    }
+
     main img{
         background-image:url(./image-style/home.png);
         width: 100%;
@@ -399,7 +408,7 @@
         right: 0;
         padding: 20px;
         text-align: center;
-        background-color:darkcyan;
+        background-color:rgba(0, 139, 139, 0.746);
         width: 60%;
         flex-direction: column;
     }

@@ -14,10 +14,13 @@
     padding: 10px;
 }
 header{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    position: fixed;
+    z-index: 999;
+    transition: .7s ease;
 }
 header .amazon{
     padding-left: 100px;
@@ -59,8 +62,20 @@ header .but a{
     text-decoration: none;
     color: #fff;
 }
-header i{
+header .fa-bars{
     display: none;
+}
+.active{
+    display: block;
+}
+.sticy{
+  background-color:rgba(0, 139, 139, 0.561);
+  padding:0px;
+  margin-top: -40px;
+  color:white;
+}
+.sticy a{
+    color:white;
 }
 main{
       display: flex;
@@ -295,10 +310,16 @@ footer img{
     align-items: center;
     justify-content: center;
     padding-top: 200px;
+    transform: translateY(0);
+    transition: 2s ease-in-out;
 }
 .unlock-item .un-item{
     padding-left: 30px;
     padding-right: 30px;
+
+}
+.unlock-item .un-item img:hover  {
+    transform: translateY(-15px);
 }
 .unlock-text h1{
     color:white;
