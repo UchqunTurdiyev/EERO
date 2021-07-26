@@ -65,8 +65,16 @@ header .but a{
 header .fa-bars{
     display: none;
 }
+
+header .fa-times{
+    display: none;
+}
+
 .active{
     display: block;
+}
+.no-active{
+    display:none;
 }
 .sticy{
   background-color:rgba(0, 139, 139, 0.561);
