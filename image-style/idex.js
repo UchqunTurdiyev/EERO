@@ -14,5 +14,16 @@ window.addEventListener('DOMContentLoaded', function() {
        
     })
 
+    window.addEventListener('scroll', function () {
+        let scr = document.querySelector('.scr');
+        scr.classList.toggle('sticys', window.scrollY > 900);
+   
+        })
+        scr.addEventListener('click', () => {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        })
 
-})
+    })
+
+
