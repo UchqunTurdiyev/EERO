@@ -11,16 +11,8 @@ window.addEventListener('DOMContentLoaded', function() {
     menuX = document.querySelector('.fa-times');
     bar.addEventListener('click', function (){
         document.querySelector('nav > ul').classList.toggle('active');
-        bar.style.display = 'none';
-        menuX.style.display = 'block';
-
-        menuX.addEventListener('click', function() {
-          document.querySelector('nav ul').classList.toggle('no-active');
-          menuX.style.display = 'none';
-          bar.style.display = 'block';
-        })
+       
     })
-
 
 
 })
