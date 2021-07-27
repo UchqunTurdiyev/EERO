@@ -497,12 +497,12 @@ footer img{
     margin-bottom: 20px;
 }
 
-.find{
+.find-item{
     width:100%;
     background: #F7F7F7;
     min-height: 80vh;
 }
-.find h1{
+.find-item h1{
     padding-top: 70px;
     text-align: center;
     font-size: 50px;
@@ -534,7 +534,7 @@ footer img{
     margin-left: 10px;
     outline: none;
 }
-.find img{
+.find-item img{
     margin-top: 60px;
     margin-left: 50%;
     transform: translateX(-50%);
