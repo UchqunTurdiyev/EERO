@@ -600,5 +600,165 @@ footer img{
     font-size: 25px;
 }
 
+  /* section turns of  */
+
+.turns_out{
+    width: 100%;
+}
+.turns_out h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    line-height: 60px;
+    color: #404040;  
+}
+.stting-up{
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.stting-left{
+    width: 100%;
+}
+.stting-left img{
+    width: 100%;
+    
+}
+.stting-right{
+    width: 100%;
+    margin-left: 140px;
+    margin-top: 200px;
+}
+.stting-right ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 100px;
+    margin-top: -200px;
+}
+.stting-right ul li button{
+    height: 2px;
+    width: 70px;
+    outline: none;
+    background: #DEDEDE;
+    border:none
+}
+
+.stting-right ul li{
+    font-size: 14px;
+line-height: 19px;
+text-transform: uppercase;
+color: #999999;
+margin-left: 30px;
+}
+.stting-right ul li:nth-child(1){
+    color: #2468FF;
+}
+.stting-right ul li button:nth-child(1){
+    background: #2468FF;
+}
+.stting-right h2{
+    width: 60%;
+    margin-left: 30px;
+    font-size: 36px;
+    line-height: 52px;   
+    color: #404040;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.stting-right span{
+    color: #646565;
+    margin-left:30px;
+}
+.stting-right p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #646565;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 35%;
+}
+.stting-right .btn-shop{
+    background: #2468FF;
+    padding: 15px 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color:white;
+    font-size: 13px;
+    line-height: 14px;
+}
+
+.the-experts{
+     margin-top: 120px;
+}
+.the-experts p{
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #404040;
+    margin-top: 30px;
+}
+.the-experts .btn-experts{
+    background: #2468FF;
+    color: #fff;
+    padding: 15px 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+}
+.the-experts .wariant{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.the-experts .wariant .var-item{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items:center;
+}
+.wariant .var-item span{
+    padding-left: 10px;
+}
 
 
+/* section stay */
+
+.stay{
+    width: 100%;
+    margin-top: 80px;
+    background: url(./image-style/Rectangle\ \(11\).png);
+    background-size: cover;
+    height:605px;
+}
+.stay h1{
+    text-align: center;
+    padding-top: 160px;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    width: 45%;
+    margin: auto;
+
+}
+.stay .btn-good{
+    background:#2468FF;
+    color:#fff;
+    /* padding: 20px 50px; */
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 80px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 280px;
+    height: 60px;
+    text-align: center;
+}
