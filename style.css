@@ -737,11 +737,11 @@ margin-left: 30px;
 }
 .stay h1{
     text-align: center;
-    padding-top: 160px;
+    padding-top: 180px;
     font-size: 50px;
     line-height: 60px;
     color: #FFFFFF;
-    width: 45%;
+    width: 40%;
     margin: auto;
 
 }
@@ -762,3 +762,108 @@ margin-left: 30px;
     height: 60px;
     text-align: center;
 }
+
+/* section foot */
+
+#footer{
+    background-color: #161F49;
+    width: 100%;
+}
+.foot-item{
+  width: 70%;
+  margin: 0 auto;
+}
+.foot-item h1{
+    padding-top: 88px;
+}
+.foot-product {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+.foot-product ul{
+    margin-left: 120px;
+    margin-top: 50px;
+    list-style: none;
+    color: #fff;
+}
+.foot-product ul:first-child{
+    margin-left: 0;
+}
+.foot-product ul li{
+    line-height: 30px;
+    display: block;
+    width: 160px;
+}
+.foot-conect{
+    margin-left: 13%;
+}
+.foot-conect h1{
+    color: #fff;
+    margin-top: -50px;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.foot-conect p{
+    color: #ffff;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.foot-conect .inp{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+.foot-conect .inp input{
+    background-color: #161F49;
+    border:none;
+    border-bottom:1px solid #fff;
+    padding: 15px 100px 15px 0;
+    margin-right: 20px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.foot-conect .inp input::placeholder{
+    color: #989898;
+    padding-left: 0;
+}
+.foot-conect .inp input:last-child{
+    border:1px solid #fff;
+    padding: 15px 70px 15px 0;
+    text-align: center;
+    color: #fff;
+    padding-left: 70px;
+}
+
+.copy-date{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.cop-item{
+    padding-left: 27%;
+}
+.cop-item:first-child{
+    padding-left: 0;
+}
+.cop-item i {
+    margin-right: 30px;
+    font-size: 30px;
+    color: #fff;
+    cursor:pointer;
+}
+.cop-item p{
+    color: #fff;
+    line-height: 30px;
+}
+
+/* animatsiya */
+

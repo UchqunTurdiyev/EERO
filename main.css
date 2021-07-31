@@ -39,6 +39,7 @@
             width: 80%;
             margin-top: 30px;
         }
+      
         
 }
 
@@ -49,6 +50,9 @@
     }
     .stting-right h2{
         width: 90%;
+        margin-top: 30px;
+    }
+    .cop-item i {
         margin-top: 30px;
     }
  
@@ -86,6 +90,7 @@
         margin-top: 20px;
         width: 65%;
     }
+    
     
 }
 
@@ -164,7 +169,16 @@
         .blue-icon{
             width: 30%;
         }
-   
+        .foot-product {
+            flex-wrap: wrap;
+        }
+        .foot-conect{
+            margin-top: 70px;
+        }
+        .foot-product ul{
+            margin-left: 45%;
+        }
+       
         
  
 }
@@ -258,6 +272,9 @@
     .stay h1{
         width: 75%;
         margin: auto;
+    }
+    .foot-product ul{
+        margin-left: 25%;
     }
 
  }
@@ -401,6 +418,19 @@
     .the-experts .wariant .var-item{
        margin-top: 30px;
     }
+    .foot-product ul{
+        margin-left: 35%;
+    }
+    .copy-date{
+        flex-wrap: wrap;
+    }
+    .cop-item p{
+        margin-left: 40%;
+    }
+    .foot-item{
+        width: 90%;
+        margin: 0 auto;
+      }
 
 
   
@@ -543,13 +573,25 @@
     line-height: 44px;
 }
 .stay .btn-good{
-    margin-left: 20%;
-    transform: translateX(-20%);
-    width: 80%;
+    margin-left: 10%;
+    transform: translateX(-10%);
+    width: 60%;
     height: 60px;
     text-align: center;
 }
-
+.foot-product ul{
+    margin-left: 5%;
+}
+.copy-date{
+    flex-wrap: wrap;
+}
+.cop-item p{
+    margin-left: 10%;
+}
+.foot-item{
+    width: 90%;
+    margin: 0 auto;
+  }
 
 }
 
@@ -686,6 +728,43 @@
         width: 80%;
         height: 60px;
         text-align: center;
+    }
+    .foot-product ul:first-child{
+        margin-left: 50px;
+    }
+    .foot-product ul{
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+    .copy-date{
+        flex-direction: column;
+    }
+    .cop-item p{
+        margin-left: 10%;
+    }
+    .foot-item{
+        width: 98%;
+        margin: 0 auto;
+      }
+      .foot-conect h1{
+          width: 100%;
+          margin-left: -15px;
+      }
+      .foot-conect p{
+          margin-left: 10px;
+          margin-top: 20px;
+      }
+      .foot-conect .inp input{
+        background-color: #161F49;
+        border:none;
+        border-bottom:1px solid #fff;
+        width: 80%;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .foot-item h1{
+        padding-top: 32px;
+        padding-left: 42px;
     }
  
 }
