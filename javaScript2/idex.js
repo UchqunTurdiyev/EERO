@@ -30,8 +30,8 @@ window.addEventListener('DOMContentLoaded', function() {
         loader.classList.add('loading');
         setTimeout(function () {
             loader.style.display = "none";
-        }, 500);
-        }, 1500);
+        }, 100);
+        }, 200);
 
                                                                 
 
